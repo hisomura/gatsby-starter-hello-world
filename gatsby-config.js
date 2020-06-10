@@ -5,8 +5,12 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: `Title from siteMetadata`,
+  },
   /* Your site config here */
   plugins: [
+    `gatsby-plugin-emotion`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {
